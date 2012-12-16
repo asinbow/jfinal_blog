@@ -1,4 +1,4 @@
-package demo;
+package free.asinbow;
 
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
@@ -10,7 +10,7 @@ import com.jfinal.core.JFinal;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.c3p0.C3p0Plugin;
 
-import demo.model.User;
+import free.asinbow.model.User;
 
 public class DemoConfig extends JFinalConfig {
 

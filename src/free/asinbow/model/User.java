@@ -1,4 +1,4 @@
-package demo.model;
+package free.asinbow.model;
 
 import com.jfinal.plugin.activerecord.Model;
 

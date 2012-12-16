@@ -1,8 +1,8 @@
-package demo;
+package free.asinbow;
 
 import com.jfinal.core.Controller;
 
-import demo.model.User;
+import free.asinbow.model.User;
 
 public class HelloController extends Controller {
 	
