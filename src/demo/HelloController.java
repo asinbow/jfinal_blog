@@ -18,12 +18,17 @@ public class HelloController extends Controller {
 		if (user!=null) {
 			renderJson(user);
 		} else {
-			renderText("Sorry, nothing found");
+			renderError404();
 		}
 	}
 	
 	public void report() {
 		renderText("Hello, Jfinal.\n" + getCookie("rock_format"));
+	}
+	
+	public void view() {
+		render("view.html");
+		//render("view.html");
 	}
 
 }
